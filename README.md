@@ -33,9 +33,7 @@ Sigue estos pasos para clonar y ejecutar el entorno de desarrollo localmente:
 Asegúrate de contar con:
 
 Node.js v20.19+ o v22+ (o v24 LTS).
-
 npm (gestor de paquetes incluido con Node.js).
-
 Git.
 
 2. Clonar el Repositorio
@@ -59,10 +57,12 @@ Para ejecutar las pruebas en modo watch:
 
 Bash
 npm test
+
 Para realizar una sola ejecución de verificación completa:
 
 Bash
 npx vitest run
+
 📦 Despliegue y Compilación
 Para generar la versión compilada y optimizada para producción:
 
@@ -70,8 +70,10 @@ Bash
 npm run build
 Los archivos finales se ubicarán en el directorio dist/.
 
+
 Para previsualizar localmente el build de producción:
 
 Bash
 npm run preview
+
 Desarrollado por Tomás Matías Morales Solís para la evaluación del curso Fullstack 2.
