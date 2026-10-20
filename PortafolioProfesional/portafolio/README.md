@@ -1,16 +1,52 @@
-# React + Vite
+💻 Portafolio Profesional Front-End — Tomás Morales Aplicación web interactiva desarrollada con React y Vite, orientada a presentar de manera clara y estructurada mi perfil como desarrollador, experiencia laboral, formación académica y proyectos destacados en arquitectura de microservicios y desarrollo de software.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+El desarrollo se enfoca en código limpio, escalabilidad y buenas prácticas Front-End utilizando la metodología Atomic Design, modularización de componentes, estados dinámicos con React Hooks y pruebas unitarias automatizadas.
 
-Currently, two official plugins are available:
+🏗️ Arquitectura y Tecnologías Metodología Atomic Design El proyecto organiza la interfaz de usuario de manera jerárquica para promover el desacoplamiento y la reutilización de código:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Átomos: Componentes elementales de la interfaz (Button, Image, Input, Text, Title).
 
-## React Compiler
+Moléculas: Combinaciones funcionales pequeñas de átomos (ProfileHeader, ProjectCard, ExperienceCard, EducationCard, FormField).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Organismos: Secciones completas autorretenidas (PersonalSection, ExperienceSection, EducationSection, ProjectsSection, ContactSection, Footer).
 
-## Expanding the ESLint configuration
+Plantillas / Páginas: Estructura global y ensamblaje de la SPA en App.jsx.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Stack Tecnológico Librería Principal: React 18+ (JavaScript / JSX).
+
+Bundler y Entorno: Vite.
+
+Diseño y Estilos: Custom CSS3 (Glassmorphism, CSS Grid, Flexbox, variables dinámicas).
+
+Manejo de Estado: React Hooks (useState).
+
+Testing Unitario: Vitest, React Testing Library y happy-dom.
+
+⚡ Instalación y Configuración Local Sigue estos pasos para clonar y ejecutar el entorno de desarrollo localmente:
+
+Requisitos Previos Asegúrate de contar con:
+Node.js v20.19+ o v22+ (o v24 LTS). npm (gestor de paquetes incluido con Node.js). Git.
+
+Clonar el Repositorio Bash git clone https://github.com/tu-usuario/portafolio.git
+Acceder al Proyecto Bash cd portafolio
+Instalar Dependencias Bash npm install
+Iniciar Servidor de Desarrollo Bash npm run dev Accede a la dirección local indicada por Vite (por defecto http://localhost:5173/) en tu navegador web.
+🧪 Pruebas Automatizadas La suite de pruebas evalúa los componentes clave de la aplicación (organismos) y el comportamiento interactivo del formulario de contacto (renderizado de entradas, manejo de errores y validación de campos vacíos).
+
+Para ejecutar las pruebas en modo watch:
+
+Bash npm test
+
+Para realizar una sola ejecución de verificación completa:
+
+Bash npx vitest run
+
+📦 Despliegue y Compilación Para generar la versión compilada y optimizada para producción:
+
+Bash npm run build Los archivos finales se ubicarán en el directorio dist/.
+
+Para previsualizar localmente el build de producción:
+
+Bash npm run preview
+
+Desarrollado por Tomás Matías Morales Solís para la evaluación del curso Fullstack 2.
