@@ -39,15 +39,19 @@ Git.
 2. Clonar el Repositorio
 
 git clone https://github.com/TomasMK4/portafolioPersonal.git
-4. Acceder al Proyecto
+
+3. Acceder al Proyecto
 
 cd portafolioPersonal/PortafolioProfesional/portafolio
+
 4. Instalar Dependencias
 
 npm install
+
 5. Iniciar Servidor de Desarrollo
 
 npm run dev
+
 Accede a la dirección local indicada por Vite (por defecto http://localhost:5173/) en tu navegador web.
 
 🧪 Pruebas Automatizadas
