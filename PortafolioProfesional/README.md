@@ -37,17 +37,21 @@ npm (gestor de paquetes incluido con Node.js).
 Git.
 
 2. Clonar el Repositorio
-Bash
-git clone https://github.com/tu-usuario/portafolio.git
+
+git clone https://github.com/TomasMK4/portafolioPersonal.git
+
 3. Acceder al Proyecto
-Bash
-cd portafolio
+
+cd portafolioPersonal/PortafolioProfesional/portafolio
+
 4. Instalar Dependencias
-Bash
+
 npm install
+
 5. Iniciar Servidor de Desarrollo
-Bash
+
 npm run dev
+
 Accede a la dirección local indicada por Vite (por defecto http://localhost:5173/) en tu navegador web.
 
 🧪 Pruebas Automatizadas
@@ -55,25 +59,21 @@ La suite de pruebas evalúa los componentes clave de la aplicación (organismos)
 
 Para ejecutar las pruebas en modo watch:
 
-Bash
 npm test
 
 Para realizar una sola ejecución de verificación completa:
 
-Bash
 npx vitest run
 
 📦 Despliegue y Compilación
 Para generar la versión compilada y optimizada para producción:
 
-Bash
 npm run build
 Los archivos finales se ubicarán en el directorio dist/.
 
 
 Para previsualizar localmente el build de producción:
 
-Bash
 npm run preview
 
 Desarrollado por Tomás Matías Morales Solís para la evaluación del curso Fullstack 2.
